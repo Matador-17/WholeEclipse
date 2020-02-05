@@ -1,0 +1,12 @@
+@sprint2 @AddEmployee
+Feature: Add Employee
+
+  Background: 
+    Given I am logged into HRMS
+    And I navigated to Add Employee Page
+
+  @smoke
+  Scenario: Add New Employee
+    When I add firstName, middleName and lastName
+    And I click Save
+    Then I verify Employee has been succesfully added

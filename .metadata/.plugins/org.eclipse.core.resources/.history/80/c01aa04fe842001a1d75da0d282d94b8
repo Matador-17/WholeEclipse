@@ -1,0 +1,19 @@
+#Author: Syntax Team (kevinmata@gmail.com)
+@sprint2 @AddEmployee
+Feature: Add Employee
+
+  Background: 
+    Given I am logged into HRMS
+    And I navigated to Add Employee Page
+
+  @smoke
+  Scenario Outline: Add New Employee
+    When I add "<FirstName>", "<MiddleName>" and "<LastName>"
+    And I click Save
+    Then I see Employee with"<FirstName>, "<MiddleName>" and "<LastName>" is displayed
+
+    Examples: 
+      | FirstName | MiddleName | LastName |
+      | Barbara   | Victoria   | Acosta   |
+      | Myles     | Zacharia   | Gillum   |
+      | Kevin     | Osmaldo    | Mata     |

@@ -1,0 +1,52 @@
+package com.hrms.steps;
+
+import com.hrms.pages.LoginPageElements;
+import com.hrms.testbase.BaseClass;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+
+public class AddEmployeeSteps {
+	
+	@When("I click on PIM and navigate to Add Employee Page")
+	public void i_click_on_PIM_and_navigate_to_Add_Employee_Page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("I add new Employee")
+	public void i_add_new_Employee() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@Then("I click Save")
+	public void i_click_Save() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@Then("I verify Employee has been succesfully added")
+	public void i_verify_Employee_has_been_succesfully_added() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@Given("I open browser and navigated to the HRMS")
+	public void i_open_browser_and_navigated_to_the_HRMS() {
+		BaseClass.setUp();
+	}
+
+	@When("I enter valid username and valid password")
+	public void i_enter_valid_username_and_valid_password() {
+		login=new LoginPageElements();
+		sendText(login.username, "Admin");
+		sendText(login.password, "Syntax@123");
+	}
+
+	@When("I click on the login button")
+	public void i_click_on_the_login_button() {
+		click(login.loginbtn);
+	
+	
+}

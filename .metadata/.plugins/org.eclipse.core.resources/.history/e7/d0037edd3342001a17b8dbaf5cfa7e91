@@ -1,0 +1,12 @@
+@sprint1 @login
+Feature: Add Employee
+
+  @regression
+  Scenario: Add New Employee
+    Given I open browser and navigated to the HRMS
+    And I am logged into HRMS
+    And I navigated to Add Employee Page
+    When I add firstName, middleName and lastName
+    Then I click Save
+    And I verify Employee has been succesfully added
+    And I close the browser

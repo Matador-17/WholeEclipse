@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="74" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+    <groups>
+      <group name="Regression">
+        <method signature="LeaveList.validateLeaveList()[pri:0, instance:com.syntax.testcases.LeaveList@370736d9]" name="validateLeaveList" class="com.syntax.testcases.LeaveList"/>
+        <method signature="LeaveModule.leaveDate()[pri:0, instance:com.syntax.testcases.LeaveModule@5f9d02cb]" name="leaveDate" class="com.syntax.testcases.LeaveModule"/>
+        <method signature="LeaveModule.returnDate()[pri:0, instance:com.syntax.testcases.LeaveModule@5f9d02cb]" name="returnDate" class="com.syntax.testcases.LeaveModule"/>
+        <method signature="LeaveModule.validateLeaveModule()[pri:0, instance:com.syntax.testcases.LeaveModule@5f9d02cb]" name="validateLeaveModule" class="com.syntax.testcases.LeaveModule"/>
+        <method signature="PimModule.removeEmployee()[pri:0, instance:com.syntax.testcases.PimModule@63753b6d]" name="removeEmployee" class="com.syntax.testcases.PimModule"/>
+        <method signature="PimModule.validateAddEmployee()[pri:0, instance:com.syntax.testcases.PimModule@63753b6d]" name="validateAddEmployee" class="com.syntax.testcases.PimModule"/>
+        <method signature="PimModule.validatePimModule()[pri:0, instance:com.syntax.testcases.PimModule@63753b6d]" name="validatePimModule" class="com.syntax.testcases.PimModule"/>
+        <method signature="ReportModule.closeReport()[pri:0, instance:com.syntax.testcases.ReportModule@6b09bb57]" name="closeReport" class="com.syntax.testcases.ReportModule"/>
+        <method signature="ReportModule.openReport()[pri:0, instance:com.syntax.testcases.ReportModule@6b09bb57]" name="openReport" class="com.syntax.testcases.ReportModule"/>
+        <method signature="ReportModule.validateReportModule()[pri:1, instance:com.syntax.testcases.ReportModule@6b09bb57]" name="validateReportModule" class="com.syntax.testcases.ReportModule"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LeaveModule.validateLeaveModule()[pri:0, instance:com.syntax.testcases.LeaveModule@5f9d02cb]" name="validateLeaveModule" class="com.syntax.testcases.LeaveModule"/>
+        <method signature="PimModule.validatePimModule()[pri:0, instance:com.syntax.testcases.PimModule@63753b6d]" name="validatePimModule" class="com.syntax.testcases.PimModule"/>
+        <method signature="ReportModule.validateReportModule()[pri:1, instance:com.syntax.testcases.ReportModule@6b09bb57]" name="validateReportModule" class="com.syntax.testcases.ReportModule"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="74" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+      <class name="com.syntax.testcases.ReportModule">
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:com.syntax.testcases.ReportModule@6b09bb57]" name="closeReport" duration-ms="1" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+        <test-method status="PASS" signature="openReport()[pri:0, instance:com.syntax.testcases.ReportModule@6b09bb57]" name="openReport" duration-ms="4" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openReport -->
+        <test-method status="PASS" signature="validateReportModule()[pri:1, instance:com.syntax.testcases.ReportModule@6b09bb57]" name="validateReportModule" duration-ms="2" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReportModule -->
+      </class> <!-- com.syntax.testcases.ReportModule -->
+      <class name="com.syntax.testcases.LeaveList">
+        <test-method status="PASS" signature="validateLeaveList()[pri:0, instance:com.syntax.testcases.LeaveList@370736d9]" name="validateLeaveList" duration-ms="2" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLeaveList -->
+      </class> <!-- com.syntax.testcases.LeaveList -->
+      <class name="com.syntax.testcases.LeaveModule">
+        <test-method status="PASS" signature="leaveDate()[pri:0, instance:com.syntax.testcases.LeaveModule@5f9d02cb]" name="leaveDate" duration-ms="1" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveDate -->
+        <test-method status="PASS" signature="returnDate()[pri:0, instance:com.syntax.testcases.LeaveModule@5f9d02cb]" name="returnDate" duration-ms="1" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnDate -->
+        <test-method status="PASS" signature="validateLeaveModule()[pri:0, instance:com.syntax.testcases.LeaveModule@5f9d02cb]" name="validateLeaveModule" duration-ms="3" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLeaveModule -->
+      </class> <!-- com.syntax.testcases.LeaveModule -->
+      <class name="com.syntax.testcases.PimModule">
+        <test-method status="PASS" signature="removeEmployee()[pri:0, instance:com.syntax.testcases.PimModule@63753b6d]" name="removeEmployee" duration-ms="12" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method status="PASS" signature="validateAddEmployee()[pri:0, instance:com.syntax.testcases.PimModule@63753b6d]" name="validateAddEmployee" duration-ms="1" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddEmployee -->
+        <test-method status="PASS" signature="validatePimModule()[pri:0, instance:com.syntax.testcases.PimModule@63753b6d]" name="validatePimModule" duration-ms="0" started-at="2020-01-22T20:12:53 EST" finished-at="2020-01-22T20:12:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePimModule -->
+      </class> <!-- com.syntax.testcases.PimModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

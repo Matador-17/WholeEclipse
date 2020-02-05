@@ -1,0 +1,18 @@
+package com.hrms.runners;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(// configures the cucumber class
+		features = "src/test/resources/features/Login.feature"// Path of the feature you want to configure/run
+		,glue="com/hrms/steps"
+		,dryRun = false
+		, plugin="pretty"
+)
+
+public class RunnerClass {
+	
+}

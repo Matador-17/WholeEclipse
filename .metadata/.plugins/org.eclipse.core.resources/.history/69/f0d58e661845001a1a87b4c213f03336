@@ -1,0 +1,29 @@
+package com.hrms.testbase;
+
+import com.hrms.pages.AddEmployeePageElements;
+import com.hrms.pages.DashboardPageElements;
+import com.hrms.pages.LeaveListPageElements;
+import com.hrms.pages.LoginPageElements;
+import com.hrms.pages.PersonalDetailsPageElements;
+
+public class PageInitializer {
+	
+	public static DashboardPageElements dash;
+	public static AddEmployeePageElements addEmployee;
+	public static LeaveListPageElements leave;
+	public static PersonalDetailsPageElements pdetails;
+	public static LoginPageElements login;
+	
+	public static void initializeAllPages() {
+		
+		LoginPageElements login=new LoginPageElements();
+		DashboardPageElements dash=new DashboardPageElements();
+		AddEmployeePageElements addEmployee=new AddEmployeePageElements();
+		LeaveListPageElements leave=new LeaveListPageElements();
+		PersonalDetailsPageElements pdetails=new PersonalDetailsPageElements();
+		
+	}
+	
+	
+	
+}
