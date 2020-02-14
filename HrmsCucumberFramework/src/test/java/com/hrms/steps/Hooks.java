@@ -10,20 +10,20 @@ public class Hooks extends CommonMethods {
 
 	@Before
 	public void start(Scenario scenario) {
-		System.out.println("Starting scenario " + scenario.getName());
+		System.out.println("Starting Scenario " + scenario.getName());
 		setUp();
 		initializeAllPages();
 	}
 
-	@After
+//	@After
 	public void end(Scenario scenario) {
-		System.out.println("Ending scenario " + scenario.getName());
+		System.out.println("Ending Scenario " + scenario.getName());
 		if (scenario.isFailed()) {
 			byte[] picture = takeScreenshot("/failed/" + scenario.getName());
-			scenario.embed(picture, "image/png");
+			scenario.embed(picture, "image.png");
 		} else {
 			byte[] picture = takeScreenshot("/passed/" + scenario.getName());
-			scenario.embed(picture, "image/png");
+			scenario.embed(picture, "image.png");
 
 			tearDown();
 		}

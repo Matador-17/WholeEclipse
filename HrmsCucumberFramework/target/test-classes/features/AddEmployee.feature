@@ -24,8 +24,8 @@ Feature: Add Employee
   #| Jane      | J          | Smith    |
   #| Sasha     | J          | Smith    |
   #| David     | J          | Smith    |
-  #@developing
-  #Scenario: Add and Modify Employee Details
+  @developing
+  Scenario: Add and Modify Employee Details
     When I enter employee details
       | FirstName | MiddleName | LastName |
       | John      | J          | Smith    |

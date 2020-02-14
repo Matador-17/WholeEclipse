@@ -51,7 +51,7 @@ public class CommonMethods extends PageInitializer {
 			Alert alert = driver.switchTo().alert();
 			alert.dismiss();
 		} catch (NoAlertPresentException e) {
-			System.out.println("Alert is not prresent");
+			System.out.println("Alert is not present");
 		}
 	}
 

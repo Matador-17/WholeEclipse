@@ -4,6 +4,7 @@ C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\te
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\utils\CommonMethods.java
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\pages\LeaveListPageElements.java
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\utils\ExcelUtility.java
+C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\runners\TestingRunner.java
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\pages\AddEmployeePageElements.java
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\runners\SmokeRunner.java
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\pages\LoginPageElements.java
@@ -11,6 +12,7 @@ C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\pa
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\testbase\BaseClass.java
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\steps\AddEmployeeSteps.java
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\runners\RegressionRunner.java
+C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\steps\TestingSteps.java
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\pages\PersonalDetailsPageElements.java
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\utils\ConfigsReader.java
 C:\Users\ronal\eclipse-workspace\HrmsCucumberFramework\src\test\java\com\hrms\utils\Constants.java
