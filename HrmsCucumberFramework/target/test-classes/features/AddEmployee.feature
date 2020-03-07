@@ -54,3 +54,19 @@ Feature: Add Employee
     #And I enter username, password and confirm password
     #When I click Save
     #Then I see Employee has been succesfully added
+    
+    
+    @SQLTesting
+    Scenario: Add Employee and validate database
+    When I add "James", "John", and "Smith"
+    And I click Save
+    And I see employee has been successfully added
+    Then I collect employee data from Database
+    And I verify that employee data is matching
+    
+    
+    
+    
+    
+    
+    
